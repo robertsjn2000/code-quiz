@@ -45,7 +45,9 @@ function gameOver(){
     timeLeftElement.innerHTML= timeLeft
     
 }
+
 submitButtonElement.addEventListener("click", saveScore)
+
 // This function saves the high score along with the initials of the user.
 function saveScore(){
     var initials= initialsInputElement.value
