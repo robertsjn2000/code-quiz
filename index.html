@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- created references to  script and css sheets.d -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="script.js"></script>
+</head>
+<!-- created html elements with classes and id's to reference in the script and css -->
+<body>
+    <section class="container">
+        <article id="question-container" class="hidden">
+            <div id="timer"></div>
+            <div id="question">Questions</div>
+            <div id="answer-buttons" class="button-grid">
+                <!-- <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button> -->
+            </div>
+        </article>
+        <article id="game-over" class="hidden">
+            Game Over!
+            <br>
+            <br>
+            score: <span id="final-score"></span>
+            <br>
+            <br>
+            time left: <span id="time-left"></span>
+            <br>
+            <br>
+            High Score: <span id="high-score"></span>
+            <div>
+                initials: <input type="text" id="initials"> <button id="submit">Submit</button>
+            </div>
+        </article>
+
+        <div class="controls">
+            <button id="start-btn" class="start-button">Start</button>
+            <button id="next-btn" class="next-button hidden">Next</button>
+        </div>
+    </section>
+
+</body>
+
+</html>
